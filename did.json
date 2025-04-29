@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:gitlab.com:urtza:gaiax:-:raw:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:gitlab.com:urtza:gaiax:main#JWK2020-RSA",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "vD7tHZ5jI3L-dC8coEVkmmtD1eg-UQ0kVti2nprBVlQxaKcjNZMUI2a8VY9EVEmBR4hQcw7NytCQnBTk38rtrpg_P7IB2kaXWGOeZ9Za8ZXh41I42HmYoRdnCUFeiXLL6bP9-fjU1ytO_TW74gIhgHII5_y21adjn2bjLZsKnBr4JU5bIPhUtoT7byldy3ps_BY3QX9EzurEyFo9lM8dRk3PfCukmjQLQNTM8PtvoJ6RrSoRtdhfNvlWTMg9V-OtAYxO0RABYQ7c-3jHGm5wFh2UZVJW6AQXufPOMT1Jx8N9J1Ng-qOEcmVTwb5o1AKdpzbAld7HoJIkMGnd6nWwAQ",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://gitlab.com/urtza/gaiax/-/blob/main/cert.pem"
+
+
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:gitlab.com:urtza:gaiax:-:raw:main#JWK2020-RSA"
+  ]
+}
+
